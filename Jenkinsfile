@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 
-                url: 'https://github.com/Triveni-1028/devops.git'
+                url: 'https://github.com/Triveni-1028/devops_buildpipeline_4.git'
             }
         }
 
