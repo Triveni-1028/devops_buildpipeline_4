@@ -11,7 +11,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                
+              git branch: 'master',  
                 url: 'https://github.com/Triveni-1028/devops_buildpipeline_4.git'
             }
         }
