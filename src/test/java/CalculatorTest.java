@@ -1,6 +1,5 @@
-package com.example; // Match your package directory structure
+package com.example;
 
-import com.example.Calculator; // Import your Calculator class
 import org.junit.Test;
 import static org.junit.Assert.*;
 
