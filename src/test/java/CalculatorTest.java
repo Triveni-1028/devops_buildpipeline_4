@@ -1,3 +1,6 @@
+package com.example; // Match your package directory structure
+
+import com.example.Calculator; // Import your Calculator class
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -7,11 +10,11 @@ public class CalculatorTest {
 
     @Test
     public void testAddition() {
-        assertEquals(30, c.add(10,20));
+        assertEquals(30, c.add(10, 20));
     }
 
     @Test
     public void testSubtraction() {
-        assertEquals(5, c.subtract(10,5));
+        assertEquals(5, c.subtract(10, 5));
     }
 }
